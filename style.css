@@ -1,0 +1,32 @@
+body {
+    margin:0;
+    background-image: url('/image/caesar.png');
+}
+.app-container {
+    text-align:  center;
+    font-size: 50px;
+    padding: 15px;
+}
+
+.container {
+    
+    padding: 400px;
+    font-size: 45px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button-container {
+    gap: 30px;
+    padding: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+#button-container input {
+    width: 45px;
+    margin: 0 15 0 15;
+}
